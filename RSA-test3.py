@@ -1,3 +1,5 @@
+# ::::::::::::::::::::::SUB::::::::::::::::::::::
+
 def isprim(a):
     x = 2
     if a == 0 or a == 1: 
@@ -11,15 +13,13 @@ def isprim(a):
             x += 1                      
     return True
 
-n = int(input(">>> n: "))
+# :::::::::::::::::::::MAIN::::::::::::::::::::::
 
+n = int(input(">>> n: "))
 nn = n**0.5
 nn = int(nn)
-print(">>> gerundeter schitt:",nn)
-y = 2
 q = 0
 p = 0
-co = 1
 q = nn
 
 while not p * q == n:
